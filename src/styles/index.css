@@ -9,3 +9,61 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+input.form-control {
+    
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    border-bottom: 1px solid #ced4da !important;
+    border-radius: 0px !important;
+}
+
+
+
+#cruzOpacity {
+    opacity: 0 !important;
+
+}
+
+
+ #cruzbox:hover #cruzOpacity {
+    opacity: 1 !important;
+        cursor: pointer;
+}
+
+
+
+h1 {
+
+    color: #d8d1d1;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+
+p {
+    color: #808080;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+
+.paper {
+  background: #fff;
+  box-shadow:
+    /* The top layer shadow */
+    0 1px 1px rgba(0,0,0,0.15),
+    /* The second layer */
+    0 10px 0 -5px #eee,
+    /* The second layer shadow */
+    0 10px 1px -4px rgba(0,0,0,0.15),
+     /* The third layer */
+    0 20px 0 -10px #eee,
+    /* The third layer shadow */
+    0 20px 1px -9px rgba(0,0,0,0.15);
+    /* Padding for demo purposes */
+    padding: 10px;
+}
