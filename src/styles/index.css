@@ -18,7 +18,14 @@ input.form-control {
     border-radius: 0px !important;
 }
 
-
+input.form-control:focus {
+    
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    border-bottom: 1px solid #bdbdbd !important;
+   
+}
 
 #cruzOpacity {
     opacity: 0 !important;
